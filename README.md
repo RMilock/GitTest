@@ -1,2 +1,26 @@
 # GitTest
 Prova Branch and Merging a New Pull Requests
+
+WEila!
+…or create a new repository on the command line
+
+echo "# Deleting" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/RMilock/GitTest.git
+git push -u origin main
+                
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/RMilock/Deleting.git
+git branch -M main
+git push -u origin main
+
+…or import code from another repository
+
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+Compact: git add test1.txt; git commit -m "this isn't a test1"; git branch -M TrackBr; git remote add origin https://github.com/RMilock/GitTest.git; git push -u origin main
