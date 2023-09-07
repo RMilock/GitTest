@@ -1,6 +1,8 @@
 # GitTest
 Prova Branch and Merging a New Pull Requests
 
+Second Test for merging the conflicts
+
 WEila!
 …or create a new repository on the command line
 
